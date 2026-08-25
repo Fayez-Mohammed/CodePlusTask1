@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="xunit" Version="2.6.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.5.4">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -16,7 +17,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ECommerce.API\ECommerce.API.csproj" />
-    <ProjectReference Include="..\..\src\ECommerce.DAL\ECommerce.DAL.csproj" />
+    <ProjectReference Include="..\..\ECommerce.API\ECommerce.API.csproj" />
+    <ProjectReference Include="..\..\ECommerce.DAL\ECommerce.DAL.csproj" />
   </ItemGroup>
 </Project>
